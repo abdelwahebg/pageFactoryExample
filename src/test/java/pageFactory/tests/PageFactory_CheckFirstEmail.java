@@ -46,6 +46,7 @@ public class PageFactory_CheckFirstEmail extends PF_BaseTest {
     @Ignore
     @Test
     public void checkEmail(){
+
         driver.get(BASEURL);
 
         // PAGE : Enter Username
