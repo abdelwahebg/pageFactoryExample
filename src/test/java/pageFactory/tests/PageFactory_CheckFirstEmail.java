@@ -65,6 +65,7 @@ public class PageFactory_CheckFirstEmail extends PF_BaseTest {
         // PAGE: EmailView
         emailView = new EmailView(driver);
         emailView.checkEmailContent();
+
         inboxPage.clickInboxLink();
     }
 
